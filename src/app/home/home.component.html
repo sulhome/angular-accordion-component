@@ -1,0 +1,5 @@
+<h1 class="title">HAVE A QUESTION? WE CAN HELP</h1>
+<app-accordion>
+  <app-panel *ngFor="let faq of faqs" [body]="faq.answer" [title]="faq.question"></app-panel>
+
+</app-accordion>

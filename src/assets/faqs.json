@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "question": "How can I reset my password?",
+    "answer": "You can reset your password by clicking on the 'Forgot password?' link on the login page and following the instructions sent to your email."
+  },
+  {
+    "id": "2",
+    "question": "What is your refund policy?",
+    "answer": "We offer a full refund within 30 days of purchase if you are not satisfied with our product. Please contact customer service for more details."
+  },
+  {
+    "id": "3",
+    "question": "Do you offer technical support?",
+    "answer": "Yes, we offer 24/7 technical support for all our customers. You can reach out to us via email, phone, or live chat."
+  },
+  {
+    "id": "4",
+    "question": "Can I change my subscription plan at any time?",
+    "answer": "Absolutely! You can upgrade or downgrade your subscription plan at any time from your account settings page."
+  },
+  {
+    "id": "5",
+    "question": "How do I cancel my subscription?",
+    "answer": "You can cancel your subscription by navigating to your account settings and selecting the cancel subscription option. If you need any assistance, our customer support team is here to help."
+  }
+]

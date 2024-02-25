@@ -1,0 +1,19 @@
+<div class="card faq-card">
+  <div class="card-header faq-card-header" [ngClass]="{'faq-card-header-expanded': !hidden}">
+    <div class="d-flex align-items-center">
+      <h3 class="font-weight-bold">Q{{id}}</h3>
+      <div class="mr-auto p-3">{{title}}</div>
+      <div class="btn-group" role="group">
+        <button class="icon-btn" (click)="handleClick()">
+          <svg class="svg-rotate__icon" [ngClass]="{'svg-rotated': !hidden}" width="25px" height="25px" viewBox="0 0 357 357">
+            <g id="add">
+              <path d="M357,204H204v153h-51V204H0v-51h153V0h51v153h153V204z"/>
+            </g>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+  </div>
+  <div class="card-body faq-card-body" *ngIf="!hidden">{{body}}</div>
+</div>

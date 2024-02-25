@@ -1,0 +1,35 @@
+.icon-btn {
+  border: 0;
+  background-color: gold;
+  padding: 10px;
+  outline: none;
+}
+
+.svg-rotated {
+  transform: rotate(-45deg) ;
+  transition: 0.9s ease;
+}
+
+.svg-rotate__icon {
+  transition: 0.9s ease;
+}
+
+.faq-card {
+  border: none;
+  border-bottom: 3px solid #000;
+  border-radius: 0;
+}
+
+.faq-card-header {
+  background-color: #fff;
+  border-bottom: none;
+}
+
+.faq-card-header-expanded {
+  background-color: darkgray;
+  border-bottom: none;
+}
+
+.faq-card-body {
+  padding: 30px;
+}
